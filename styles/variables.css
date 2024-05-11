@@ -1,4 +1,10 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --red-black: #ff0070; /* #353430 */
+  --red-pink: #ff0070; /* #FF8DCB */
+  --purple-pinky: #db00ff; /* #FFC2E6 */
+  --purple-black: #f1b2ce; /* #353430 */
+  --focus-visible: rgb(53 52 48 / 0.4); /* #FFC2E6 */
+  --focus-link: #ffc2e6; /* #353430 */
+  --hide-show: block;
+}
+

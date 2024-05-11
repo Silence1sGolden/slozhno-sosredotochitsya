@@ -4,9 +4,31 @@
   переключая тему
 */
 
+@media (prefers-color-scheme: dark) {
+  body {
+    --red-black: #ff0070; /* #353430 */
+    --red-pink: #ff0070; /* #FF8DCB */
+    --purple-pinky: #db00ff; /* #FFC2E6 */
+    --purple-black: #f1b2ce; /* #353430 */
+    --focus-visible: rgb(53 52 48 / 0.4); /* #FFC2E6 */
+    --focus-link: #ffc2e6; /* #353430 */
+    --hide-show: block; /* none */
+  }
+
+  .page {
+    background-image: url(../images/cover-image-dark.png);
+    background-color: #000028;
+  }
+}
+
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  background-image: url(../images/cover-image-dark.png);
+  background-color: #000028;
+  --red-black: #FF0070; /* #353430 */
+  --red-pink: #FF0070; /* #FF8DCB */
+  --purple-pinky: #DB00FF; /* #FFC2E6 */
+  --purple-black: #F1B2CE; /* #353430 */
+  --focus-visible: rgb(53 52 48 / .4); /* #FFC2E6 */
+  --focus-link: #ffc2e6; /* #353430 */
+  --hide-show: block; /* none */
 }
