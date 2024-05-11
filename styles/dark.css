@@ -4,6 +4,7 @@
   переключая тему
 */
 
+
 @media (prefers-color-scheme: dark) {
   body {
     --red-black: #ff0070; /* #353430 */
