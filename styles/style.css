@@ -14,6 +14,7 @@
 
 .header {
   position: relative;
+  block-size: 100vh;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px)
     clamp(10px, 0.0286rem + 2.5445vw, 20px)
     clamp(4.125rem, -2.8526rem + 29.771vw, 11.4375rem);
