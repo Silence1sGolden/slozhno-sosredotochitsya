@@ -1,10 +1,31 @@
 :root {
-  --red-black: #ff0070; /* #353430 */
-  --red-pink: #ff0070; /* #FF8DCB */
-  --purple-pinky: #db00ff; /* #FFC2E6 */
-  --purple-black: #f1b2ce; /* #353430 */
-  --focus-visible: rgb(53 52 48 / 0.4); /* #FFC2E6 */
-  --focus-link: #ffc2e6; /* #353430 */
-  --hide-show: block;
+  /* COLORS */
+  --deep-pink: #ff0070;
+  --gray: #353430;
+  --purple-pink: #FF8DCB;
+  --candy-pink: #FFC2E6;
+  --violet: #db00ff;
+  --amaranth-pink: #f1b2ce;
+  --purple-black: #191316;
+  --dark-blue: #000028;
+  
+  /* SHADOWS*/
+  --deep-pink-shadow: rgb(255 0 112 / .4);
+  --gray-shadow: rgb(50 49 45 / .4);
+
+  /* STATUS */
+  --hide: none;
+  --show: block;
+
+  /* redefinitions */
+  --main-color: var(--deep-pink); /* swap on --gray */
+  --text-color: var(--amaranth-pink); /* swap on --gray */
+  --title-color: var(--violet); /* swap on --candy-pink */
+  --accent: var(--deep-pink); /* swap on --purple-pink */
+  --section-title-color: var(--purple-black); /* swap on --deep-pink */
+  --menu-item-hover: var(--deep-pink-shadow); /* swap on --gray-shadow */
+  --focus-text-link: var(--amaranth-pink); /* swap on --gray */
+  --hover-button: var(--deep-pink-shadow); /* swap on --gray-shadow */
+  --secret-camera: var(--show); /* swap on --hide */
 }
 

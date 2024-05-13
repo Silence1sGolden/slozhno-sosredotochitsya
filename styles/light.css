@@ -5,29 +5,33 @@
 */
 @media (prefers-color-scheme: light) {
   body {
-    --red-black: #353430; /* #FF0070 */
-    --red-pink: #ff8dcb; /* #FF0070 */
-    --purple-pinky: #ffc2e6; /* #DB00FF */
-    --purple-black: #353430; /* #F1B2CE */
-    --focus-visible: rgb(255 194 230 / 0.4); /* #353430 */
-    --focus-link: #353430; /* #FFC2E6 */
-    --hide-show: none; /* block */
+    --main-color: var(--gray); /* swap on --deep-pink */
+    --text-color: var(--gray); /* swap on --amaranth-pink */
+    --title-color: var(--candy-pink); /* swap on --violet */
+    --accent: var(--purple-pink); /* swap on --deep-pink */
+    --section-title-color: var(--deep-pink); /* swap on --purple-black */
+    --menu-item-hover: var(--gray-shadow); /* swap on --deep-pink-shadow */
+    --focus-text-link: var(--gray); /* swap on --amaranth-pink */
+    --hover-button: var(--gray-shadow); /* swap on --deep-pink-shadow */
+    --secret-camera: var(--hide); /* swap on --show */
   }
 
   .page {
     background-image: url(../images/cover-image-light.png);
-    background-color: #FFF1F7;
+    background-color: #fff1f7;
   }
 }
 
 .page.theme_light {
   background-image: url(../images/cover-image-light.png);
-  background-color: #FFF1F7;
-  --red-black: #353430; /* #FF0070 */
-  --red-pink: #FF8DCB; /* #FF0070 */
-  --purple-pinky: #FFC2E6; /* #DB00FF */
-  --purple-black: #353430; /* #F1B2CE */
-  --focus-visible: rgba(255, 194, 230, 0.4); /* #353430 */
-  --focus-link: #353430; /* #FFC2E6 */
-  --hide-show: none; /* block */
+  background-color: #fff1f7;
+  --main-color: var(--gray); /* swap on --deep-pink */
+  --text-color: var(--gray); /* swap on --amaranth-pink */
+  --title-color: var(--candy-pink); /* swap on --violet */
+  --accent: var(--purple-pink); /* swap on --deep-pink */
+  --section-title-color: var(--deep-pink); /* swap on --purple-black */
+  --menu-item-hover: var(--gray-shadow); /* swap on --deep-pink-shadow */
+  --focus-text-link: var(--gray); /* swap on --amaranth-pink */
+  --hover-button: var(--gray-shadow); /* swap on --deep-pink-shadow */
+  --secret-camera: var(--hide); /* swap on --show */
 }
