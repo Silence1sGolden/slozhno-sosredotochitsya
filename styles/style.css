@@ -149,7 +149,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  gap: clamp(50px, 2.5286rem + 2.5445vw, 80px);;
+  gap: clamp(50px, 2.5286rem + 2.5445vw, 80px);
   margin-block: clamp(40px, 1.3073rem + 5.0891vw, 60px);
 }
 
