@@ -87,6 +87,7 @@
   color: var(--red-black);
   line-height: 18px;
   padding-inline: 13px;
+  padding-block-start: 20px;
   padding-block-end: 6px;
   background-color: transparent;
   border: 0;
