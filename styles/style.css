@@ -16,7 +16,7 @@
   position: relative;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px)
     clamp(10px, 0.0286rem + 2.5445vw, 20px)
-    clamp(4.125rem, -2.8526rem + 29.771vw, 11.4375rem) 0px;
+    clamp(4.125rem, -2.8526rem + 29.771vw, 11.4375rem);
   margin-block-end: clamp(40px, 1.3073rem + 5.0891vw, 60px);
 }
 
@@ -76,7 +76,7 @@
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
   margin-block: clamp(4.0625rem, -2.3783rem + 27.4809vw, 10.8125rem);
 }
 
