@@ -244,17 +244,12 @@
   }
 
   .section:not(:has(.section__picture)) {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 2fr;
   }
 
   .section_custom {
     grid-template-columns: clamp(236px, -6.625rem + 44.5313vw, 350px) 1fr;
     grid-template-rows: auto 1fr;
-  }
-
-  .section__list {
-    grid-column-start: 2;
-    grid-column-end: span 3;
   }
 
   .section__list_custom {
@@ -319,6 +314,10 @@
   .header__subtitle {
     margin-block-start: 114px;
     inline-size: 491px;
+  }
+
+  .section:not(:has(.section__picture)) {
+    grid-template-columns: min(100%, 315px) 2fr;
   }
 
   .section__list_custom {
