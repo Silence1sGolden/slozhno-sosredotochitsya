@@ -135,7 +135,7 @@
 }
 
 .header__subtitle {
-  inline-size: max(50%, 355px);
+  inline-size: max((100% - clamp(10px, 0.0286rem + 2.5445vw, 20px)) / 2, 355px);
   margin-inline-start: auto;
   margin-block-start: clamp(55px, -2.9437rem + 27.2265vw, 162px);
   font-family: "IBM Plex mono", sans-serif;
