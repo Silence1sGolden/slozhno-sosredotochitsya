@@ -121,7 +121,7 @@
   font-family: "IBM Plex mono", sans-serif;
   color: var(--purple-pinky);
   font-weight: 700;
-  line-height: calc(1em - 21px);
+  line-height: 82.5%;
   text-align: left;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
@@ -304,12 +304,8 @@
 }
 
 @media (width >= 1024px) {
-  .title {
-    line-height: calc(1em - 21px);
-  }
-
   .header {
-    padding-bottom: 134px;
+    padding-block-end: 134px;
   }
 
   .header__theme-menu {
