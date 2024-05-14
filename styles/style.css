@@ -14,9 +14,15 @@
 
 .header {
   position: relative;
-  display: flex;
+
+  /* display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-evenly; */
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr min-content 1fr;
+
   block-size: 100vh;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px)
     clamp(10px, 0.0286rem + 2.5445vw, 20px);
@@ -137,6 +143,9 @@
 }
 
 .header__subtitle {
+  block-size: min-content;
+  align-self: center;
+
   inline-size: max((100% - clamp(10px, 0.0286rem + 2.5445vw, 20px)) / 2, 355px);
   margin-inline-start: auto;
   /* margin-block-start: clamp(55px, -2.9437rem + 27.2265vw, 162px); */
@@ -307,7 +316,7 @@
 
 @media (width >= 1024px) {
   .header {
-    padding-block-end: 134px;
+    /* padding-block-end: 134px; */
   }
 
   .header__theme-menu {
