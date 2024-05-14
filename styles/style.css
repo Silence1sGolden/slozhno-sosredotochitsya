@@ -111,11 +111,6 @@
   outline: 0;
 }
 
-.header__theme-menu-button_active {
-  cursor: none;
-  pointer-events: none;
-}
-
 .header__theme-menu-item:hover {
   outline: 1px solid var(--hover-button);
 }
@@ -127,6 +122,8 @@
 }
 
 .header__theme-menu-button_active {
+  cursor: none;
+  pointer-events: none;
   outline: 1px solid var(--main-color);
 }
 
