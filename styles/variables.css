@@ -34,7 +34,7 @@
   --focus-text-link: var(--amaranth-pink); /* swap on --gray */
   --hover-button: var(--deep-pink-shadow); /* swap on --gray-shadow */
   --secret-camera: var(--show); /* swap on --hide */
-  --bg-image: url(../images/cover-image-dark.png);
-  --bg-color: var(--dark-blue);
+  --bg-image: url(../images/cover-image-dark.png); /* swap on cover-image-light.png */
+  --bg-color: var(--dark-blue); /* swap on --lavender-pink */
 }
 

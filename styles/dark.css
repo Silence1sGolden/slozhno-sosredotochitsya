@@ -4,7 +4,8 @@
   переключая тему
 */
 
-.header__title {
+.page.theme_dark .header__title,
+.page.theme_dark .footer__title {
   text-shadow: 4px 4px var(--deep-pink); /* static */
 }
 
