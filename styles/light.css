@@ -3,8 +3,25 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+
+.page.theme_light {
+  --bg-image: url(../images/cover-image-light.png); /* swap on cover-image-dark.png */
+  --bg-color: var(--lavender-pink); /* swap on --dark-blue */
+  --main-color: var(--gray); /* swap on --deep-pink */
+  --text-color: var(--gray); /* swap on --amaranth-pink */
+  --title-color: var(--candy-pink); /* swap on --violet */
+  --accent: var(--purple-pink); /* swap on --deep-pink */
+  --section-title-color: var(--deep-pink); /* swap on --purple-black */
+  --menu-item-hover: var(--gray-shadow); /* swap on --deep-pink-shadow */
+  --focus-text-link: var(--gray); /* swap on --amaranth-pink */
+  --hover-button: var(--gray-shadow); /* swap on --deep-pink-shadow */
+  --secret-camera: var(--hide); /* swap on --show */
+}
+
 @media (prefers-color-scheme: light) {
   body {
+    --bg-image: url(../images/cover-image-light.png); /* swap on cover-image-dark.png */
+    --bg-color: var(--lavender-pink); /* swap on --dark-blue */
     --main-color: var(--gray); /* swap on --deep-pink */
     --text-color: var(--gray); /* swap on --amaranth-pink */
     --title-color: var(--candy-pink); /* swap on --violet */
@@ -15,23 +32,4 @@
     --hover-button: var(--gray-shadow); /* swap on --deep-pink-shadow */
     --secret-camera: var(--hide); /* swap on --show */
   }
-
-  .page {
-    background-image: url(../images/cover-image-light.png);
-    background-color: #fff1f7;
-  }
-}
-
-.page.theme_light {
-  background-image: url(../images/cover-image-light.png);
-  background-color: #fff1f7;
-  --main-color: var(--gray); /* swap on --deep-pink */
-  --text-color: var(--gray); /* swap on --amaranth-pink */
-  --title-color: var(--candy-pink); /* swap on --violet */
-  --accent: var(--purple-pink); /* swap on --deep-pink */
-  --section-title-color: var(--deep-pink); /* swap on --purple-black */
-  --menu-item-hover: var(--gray-shadow); /* swap on --deep-pink-shadow */
-  --focus-text-link: var(--gray); /* swap on --amaranth-pink */
-  --hover-button: var(--gray-shadow); /* swap on --deep-pink-shadow */
-  --secret-camera: var(--hide); /* swap on --show */
 }

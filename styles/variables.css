@@ -8,6 +8,7 @@
   --amaranth-pink: #f1b2ce;
   --purple-black: #191316;
   --dark-blue: #000028;
+  --lavender-pink: #fff1f7;
   
   /* SHADOWS*/
   --deep-pink-shadow: rgb(255 0 112 / .4);
@@ -16,6 +17,12 @@
   /* STATUS */
   --hide: none;
   --show: block;
+
+  /* font */
+  --ibm-font: "IBM Plex mono";
+
+  /* constant */
+  --resizable-indentation: clamp(10px, 0.0286rem + 2.5445vw, 20px);
 
   /* redefinitions */
   --main-color: var(--deep-pink); /* swap on --gray */
@@ -27,5 +34,7 @@
   --focus-text-link: var(--amaranth-pink); /* swap on --gray */
   --hover-button: var(--deep-pink-shadow); /* swap on --gray-shadow */
   --secret-camera: var(--show); /* swap on --hide */
+  --bg-image: url(../images/cover-image-dark.png);
+  --bg-color: var(--dark-blue);
 }
 
